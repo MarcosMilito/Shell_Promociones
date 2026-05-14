@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Promociones - Estación de Servicio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="promo-screen">
+
+    <section class="slider">
+
+      <div class="slide active">
+        <img id="promoImage" src="" alt="Promoción de la estación de servicio">
+      </div>
+
+      <div class="overlay-top">
+        <div class="brand">
+          <span class="brand-icon">☕</span>
+          <span class="brand-name">Promociones del día</span>
+        </div>
+
+        <div class="date" id="currentDate"></div>
+      </div>
+
+      <div class="overlay-bottom">
+        <div class="promo-info">
+          <h1 id="promoTitle">Promo</h1>
+          <p id="promoDescription">Descripción de la promoción</p>
+        </div>
+
+        <div class="counter">
+          <span id="currentSlide">1</span>
+          /
+          <span id="totalSlides">1</span>
+        </div>
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
